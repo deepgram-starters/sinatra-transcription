@@ -1,10 +1,8 @@
-# Deepgram [Language] Starters
+# Deepgram Ruby Starters
 
-Please check out the starters contained in this repository, for examples of how to build Deepgram into your [Language] applications.
+Please check out the starters contained in this repository, for examples of how to build Deepgram into your Ruby applications.
 
 - [Web App](./Starter-01/README.md)
-- [Websockets](./Starter-01/README.md)
-- [Command-line](./Starter-01/README.md)
 
 ## What is Deepgram?
 
