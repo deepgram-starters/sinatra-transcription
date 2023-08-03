@@ -1,6 +1,6 @@
 # Deepgram Ruby Starters
 
-Please check out the starters contained in this repository, for examples of how to build Deepgram into your Ruby applications.
+Please check out the starters contained in this repository for examples of how to build Deepgram into your Ruby applications.
 
 - [Web App](./Starter-01/README.md)
 
