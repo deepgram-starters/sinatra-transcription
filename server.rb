@@ -11,11 +11,19 @@ class MyApp < Sinatra::Base
   set :public_folder, File.dirname(__FILE__) + '/static'
   set :static_url, '/'
 
+  set :bind, 'localhost'
+  configure do
+    enable :cross_origin
+  end
+  before do
+    response.headers['Access-Control-Allow-Origin'] = '*'
+  end
+  
   get '/' do
     send_file File.join(settings.public_folder, 'index.html')
   end
 
-  DEEPGRAM_API_KEY = ENV['deepgram_api_key']
+  DEEPGRAM_API_KEY = ENV['DEEPGRAM_API_KEY']
   DEEPGRAM_API_URL = 'https://api.deepgram.com/v1/listen'
   
   # Endpoint
