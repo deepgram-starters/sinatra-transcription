@@ -55,9 +55,9 @@ GEM
     mutex_m (0.1.2)
     net (0.3.3)
       activesupport
-    nio4r (2.5.9)
+    nio4r (2.7.0)
     public_suffix (5.0.3)
-    puma (6.4.0)
+    puma (6.4.2)
       nio4r (~> 2.0)
     rack (2.2.8)
     rack-protection (3.1.0)
@@ -95,6 +95,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
