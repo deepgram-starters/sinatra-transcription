@@ -1,4 +1,4 @@
-# Sinatra PreRecorded Transcription Starter
+# Sinatra Transcription Starter
 
 [![Discord](https://dcbadge.vercel.app/api/server/xWRaCDBtW4?style=flat)](https://discord.gg/xWRaCDBtW4)
 
