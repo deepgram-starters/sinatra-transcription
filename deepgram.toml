@@ -2,7 +2,7 @@
   title = "Sinatra Transcription Starter"
   description = "Get started using Deepgram's PreRecorded Transcription with this Sinatra demo app"
   author = "Deepgram DX Team <devrel@deepgram.com> (https://developers.deepgram.com)"
-  useCase = "Prerecorded"
+  useCase = "STT"
   language = "Ruby"
   framework = "Sinatra"
 
